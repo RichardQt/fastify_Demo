@@ -1,0 +1,13 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "watch": [
+        "server.ts"
+    ],
+    "ignore": [
+        "test/*.spec.ts",
+        "node_modules/**"
+    ],
+    "exec": "node --loader ts-node/esm server.ts",
+    "ext": "ts ejs yml json"
+}
